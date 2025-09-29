@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamil Selvan | Front-End Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="name">Tamil Selvan</h1>
+    <p>Front-End Developer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hello! I am Tamil Selvan, a passionate front-end developer who loves creating interactive and user-friendly websites using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5, CSS3, JavaScript (ES6+)</li>
+      <li>Responsive Web Design</li>
+      <li>React.js (basic)</li>
+      <li>UI/UX Implementation</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:tamilselvan@example.com">tamilselvan@example.com</a></p>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tamil Selvan | Front-End Developer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
